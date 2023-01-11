@@ -74,13 +74,18 @@ function App() {
         </div>
         <div className='details-container'>
           <p>Use the power of Chat GPT in your slack Workspace via Zipy Bot</p>
+
+          <p>Add the bot to your workspace to use chat GPT anywhere.</p>
+          <p>Stuck somewhere? Need quick answers? Just type /askzipy before your question and get instant answers.</p>
           <p>How to Use?</p>
           <ul className='points'>
             <li>Add bot to your workspace by clicking the "Add To Workspace" button</li>
             <li>Authorize Zipy Bot to add to your workspace</li>
-            <li>In any converstaion just type command <code>/askzipy</code> and ask anything</li>
+            <li>In any conversation just type command <code>/askzipy</code> and ask anything</li>
             <li>Get amazing replies from Zipy Bot!!!</li>
           </ul>
+          <br />
+          <p>If you are just looking to have some fun, check out /askmeanzipy and get yourself roasted.</p>
         </div>
       </div>
     </div>
