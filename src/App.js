@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import ZipybotIcons from './icons/Zipy Plug & Play.png';
+import ZipybotIcons from './icons/tower.png';
 
 const redirect_uri = 'https://add-slack-bot.vercel.app';
 const client_id = '2124581498389.4635448255920';
@@ -19,27 +19,37 @@ function App() {
           </div>
           <div className='title-container'>
             <div className='title'>
-              Zipy Plug & Play
+              Zipy Watch Tower
             </div>
-            <div className='subtitle'>
-              Catch, report, and fix bugs faster.
-            </div>
+            <div className='subtitle'></div>
               <div className='add-to-slack-button'>
                 Coming soon
               </div>
           </div>
         </div>
         <div className='details-container'>
-          <p>Now Catch, report, and fix bugs faster.</p>
-
-          <p>Record screen and technical logs on your product. Report and fix bugs faster.</p>
-          <p>How often does it happen that an engineer can't reproduce the bug and therefore fix it? Developers spend 2-6 hours a day on technical issues. And it's a lot of back and forth with the bug reporter. That's more time spent on bugs than developing great features. Here's how Zipy is changing that.</p>
-          <p>How to Use?</p>
+          <p>ZipyWatchTower is an open to use tool for improving the quality of websites. You can run it for any website and can see Insight Information of that webpage. You can runh ZipyWatchTower from chrome dev tool.</p>
+          <p>Run ZipyWatchTower in Chrome DevTools</p>
           <ul className='points'>
-            <li>Download and Install Zipy Plug n Play Plugin</li>
-            <li>Click on Start once you are ready to start recording the session.</li>
-            <li>Click on Stop to stop recording the session.</li>
-            <li>And Voila you have all the records.</li>
+            <li>Open the Google chrome, If it is not downloaded in your system download it.</li>
+            <li>Open the web url for which you want to see the performance Insights and then open the chrome dev tool.</li>
+            <li>Click the ZipyWatchTower Tab.</li>
+            <li>To start Recording of your session click on the StartRecording button</li>
+            <li>Then do some activity on the web pages.</li>
+            <li>After that click on the stop recording button</li>
+            <li>In some time It will generate a report which will give you the information of webpage.</li>
+          </ul>
+          <br />
+          <p>Performance Insight Information It provides</p>
+          <ul className='points'>
+            <li>Longet task by navigation url and there count</li>
+            <li>Network api insight </li>
+            <ul className='points'>
+              <li>CompressionStatus of request.</li>
+              <li>CacheStatus of data.</li>
+              <li>Top 5 slowest api insight information.
+</li>
+            </ul>
           </ul>
         </div>
       </div>
