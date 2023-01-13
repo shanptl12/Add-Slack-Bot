@@ -5,7 +5,7 @@ import ZipybotIcons from './icons/Zipybot Icon Square.png';
 import Loader from './icons/loader.svg';
 import SuccessIcon from './icons/check-circle.svg';
 
-const redirect_uri = 'https://add-slack-bot.vercel.app';
+const redirect_uri = 'https://toolsqa.zipy.ai/zipy-bot';
 const client_id = '2124581498389.4635448255920';
 const client_secret = 'eca7c408b545cb574ade79b7e1d3c49f';
 
